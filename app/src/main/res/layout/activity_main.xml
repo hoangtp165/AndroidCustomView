@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hoangtp165.customview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hoangtp165.customview.TextRun
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:content="Hello there!"
+            app:text_color="@color/colorPrimary"
+            app:text_run_background="@color/colorAccent"
+            app:speed="1"
+            app:text_size="14sp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

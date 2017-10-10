@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextRun">
+        <attr name="speed" format="float" />
+        <attr name="content" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_run_background" format="color" />
+    </declare-styleable>
+</resources>
